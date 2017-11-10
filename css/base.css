@@ -1,0 +1,129 @@
+.task-list ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-right:5px;
+}
+.task-list{
+	margin:10px 0;
+}
+.task-list li{
+	background:#fff;
+	margin:5px 0 5px;
+	border-radius:3px;
+	line-height:40px;
+	-webkit-box-shadow:2px 3px 3px rgba(0,0,0,.4);
+	-moz-box-shadow:2px 3px 3px rgba(0,0,0,.4);
+	box-shadow:2px 3px 3px rgba(0,0,0,.4);
+	color:#000;
+	padding-left:8px;
+	cursor:pointer;
+	-webkit-transition:background .2s;
+	-moz-transition:background .2s;
+	-o-transition:background .2s;
+	transition:background .2s;
+
+}
+.task-list li:hover{
+	background:#ccc;
+
+}
+body{
+	background-color:#00484b;
+	color:#fff;
+}
+h1{
+	text-align:center;
+}
+.container{
+	position:relative;
+	margin:auto;
+	width:800px;
+}
+.task-add input[type="text"]{
+	float:left;
+	line-height:40px;
+	width:83%;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin-right:5px;
+	outline:0;
+	-webkit-box-shadow:inset 2px 3px 3px rgba(0,0,0,.1);
+	-moz-box-shadow:inset 2px 3px 3px rgba(0,0,0,.1);
+	box-shadow:inset 2px 3px 3px rgba(0,0,0,.1);
+	background:#ccc;
+
+}
+.task-detail input[type="date"]{
+	line-height:40px;
+}
+.task-add input[type="text"]:hover,.task-detail input[type="date"]:hover{
+background:#fff;
+}
+.task-add button[type="submit"]{
+background:#5fb9e4;
+width:15%;
+height:45px;
+border-radius:5px;
+-webkit-transition:background .2s;
+-moz-transition:background .2s;
+-o-transition:background .2s;
+transition:background .2s;
+cursor:pointer;
+
+}
+.task-add button[type="submit"]:hover{
+	background:#46b1e4;
+}
+.task-detail{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:50%;
+	height:100%;
+	background:#fff;
+	border-radius:5px;
+	display:none;
+
+}
+.task-masks{
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+background:rgba(0,0,0,.5);
+border-radius:3px;
+display:none;
+}
+.task-content{
+	color:#000;
+	margin:10px 0 20px 20px;
+}
+textarea,input[type="date"]{
+     display:block;
+	width:85%;
+	margin-left:20px;
+	border-radius:5px;
+	background:#ddd;
+}
+textarea{
+	height:100px;
+}
+text-area:hover{
+	background:#fff;
+}
+.task-textarea{
+	margin-bottom:20px;
+}
+.task_delete,.task_describe{
+color:#888;
+}
+.task_delete:hover,.task_describe:hover{
+	color:#333;
+}
+.fr{
+	width:100px;
+	float:right;
+}
